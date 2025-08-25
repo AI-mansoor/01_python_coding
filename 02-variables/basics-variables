@@ -1,0 +1,23 @@
+# Example of variables in Python
+
+# 1. Storing numbers
+age = 18
+marks = 95.5   # decimal (float)
+
+# 2. Storing text (string)
+name = "Mansoor"
+city = "Peshawar"
+
+# 3. Boolean values (True/False)
+is_student = True
+is_teacher = False
+
+# 4. Printing the values
+print("Name:", name)
+print("Age:", age)
+print("City:", city)
+print("Marks:", marks)
+print("Student:", is_student)
+
+
+
