@@ -1,0 +1,24 @@
+# Example of a simple class
+class university:
+    # Constructor (called automatically when an object is created)
+    def __init__(self,name, college, year,):
+        self.name =  name  # instance variable
+        self.college = college
+        self.year = year
+
+
+    # Method (function inside class)
+    def display_info(self):
+        print(f"my name is  {self.name} i got admmission in  {self.college} in {self.year}")
+
+
+# Create objects (instances of Car)
+a = university("MANSOOR ALI KHAN", "ALQADIR UNIVERSITY","2025")
+b = university("AHMAD JAN", "ALQADIR UNIVERSITY","2025")
+C = university("ALI KHAN", "ALQADIR UNIVERSITY","2025")
+
+
+# Call method using object
+a.display_info()
+b.display_info()
+C.display_info()

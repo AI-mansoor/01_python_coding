@@ -1,0 +1,15 @@
+class Bird:
+    def fly(self):
+        print("Some birds can fly.")
+
+class Sparrow(Bird):
+    def fly(self):
+        print("Sparrow flies high!")
+
+class Penguin(Bird):
+    def fly(self):
+        print("Penguins cannot fly.")
+
+# Polymorphism in action
+for bird in [Sparrow(), Penguin()]:
+    bird.fly()

@@ -87,3 +87,52 @@ print(math.sqrt(16))
 ✅ So Python is all about:
 Variables + Data + Logic + Reuse + Libraries = Powerful Programs
  
+
+
+
+
+🟢 Definition of OOP
+
+Object-Oriented Programming (OOP) is a way of writing programs using objects instead of just functions and logic.
+
+An object is something that has data (attributes/variables) and behavior (methods/functions).
+
+A class is like a blueprint to create objects.
+
+👉 Example in real life:
+
+Class = "Car" (blueprint)
+
+Objects = Toyota Corolla, Honda Civic (actual cars made from the blueprint)
+
+🟢 Four Main Pillars of OOP
+
+Encapsulation → Binding data and methods together, and hiding the details.
+
+Inheritance → One class can get properties/methods of another class.
+
+Polymorphism → Same method name but different behavior in different classes.
+
+Abstraction → Hiding unnecessary details, showing only the important features.
+
+🟢 Very Simple Example in Python
+# Class definition
+class Car:
+    def __init__(self, brand, model):   # Constructor
+        self.brand = brand
+        self.model = model
+
+    def drive(self):   # Method
+        print(f"{self.brand} {self.model} is driving...")
+
+# Creating Objects
+car1 = Car("Toyota", "Corolla")
+car2 = Car("Honda", "Civic")
+
+# Using Objects
+car1.drive()
+car2.drive()
+
+Output:
+Toyota Corolla is driving...
+Honda Civic is driving...

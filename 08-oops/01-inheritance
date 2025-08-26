@@ -1,0 +1,25 @@
+# Parent class
+class father:
+    def name(self):
+        print("my name is muhammad younas.")
+
+# Child class (inherits from )
+class son(father):
+    def name(self):
+        print("my  son is  mansoor ali khan.")
+
+class grandson(son):
+    def name(self):
+        print("my grandson salar  khan.")
+
+# Using objects
+a = father()
+b = son()
+c = grandson()
+
+a.name()
+b.name()    
+c.name()
+
+
+ 
